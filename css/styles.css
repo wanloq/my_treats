@@ -180,30 +180,27 @@ footer {
     .mobile-menu {
         display: block;
     }
-‎    nav ul {
-‎        display: none;
-‎        flex-direction: column;
-‎        position: absolute;
-‎        top: 100%;
-‎        left: 0;
-‎        width: 100%;
-‎        background-color: #FFE6E1;
-‎        padding: 1rem;
-‎        text-align: center;
-‎        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-‎    }
-‎    
-‎    nav ul.show {
-‎        display: flex;
-‎    }
-‎    
-‎    nav ul li {
-‎        margin: 0.5rem 0;
-‎    }
-‎}
-‎
-‎@media (max-width: 480px) {
-‎    .container {
-‎        padding: 0 15px;
-‎    }
-‎}
+    
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #FFE6E1;
+        width: 100%;
+        top: 100%;
+        left: 0;
+        padding: 1rem;
+        text-align: center;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+}
