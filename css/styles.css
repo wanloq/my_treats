@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    transition: all 0.3s ease-in-out;
 }
 
 body{
@@ -22,11 +23,12 @@ h1, h2, h3, h4, h5, h6{
 a{
     text-decoration: none;
     color: #075B5E;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 a :hover{
     color: #FF3F33;
+    transform: translateY(-8px);
 }
 
 img {
@@ -97,16 +99,6 @@ nav ul li a.active {
     
 }
 
-nav ul li a.active::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #FF3F33;
-}
-
 nav ul li a:hover {
     color: #9FC87E;
     border-bottom: #9FC87E solid;
@@ -150,6 +142,12 @@ footer {
 
 .footer-links ul li a {
     color: #FFE6E1;
+}
+
+.footer-links ul li a.active {
+    color: #FF3F33;
+    border-bottom: #FF3F33 solid;
+    
 }
 
 .footer-links ul li a:hover {
