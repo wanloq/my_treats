@@ -7,6 +7,7 @@
 
     <!-- Stylesheet/css file -->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/contact.css">
     
     <!-- Google Fonts Link-->
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -39,12 +40,93 @@
 
     <main>
         <!-- Main body of this page lives here -->
-         <section>
-            <div>
-
+        <!-- page hero section -->
+        <section class="page-hero contact-hero">
+            <div class="hero-overlay">
+                <h1>Visit Us</h1>
+                <p>We'd love to host you in our little corner of Paris right here in New Haven Enugu</p>
             </div>
-         </section>
+        </section>
+
+        <!-- contact section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+                        <div class="info-details">
+                            <div class="info-block">
+                                <h3><i class="fas fa-"></i>  Address</h3>
+                                <p>No. 28 Chime Avenue,<br>New Haven, Enugu State, Nigeria</p>
+                            </div>
+                            <div class="info-block">
+                                <h3><i class="fas fa-phone"></i>  Phone</h3>
+                                <p>+234 816 537 2989<br>+234 703 817 8685</p>
+                            </div>
+                            <div class="info-block">
+                                <h3><i class="fas fa-envelope"></i>  Email</h3>
+                                <p>ndewo@mytreats.ng<br>reservations@mytreats.ng</p>
+                            </div>
+                            <div class="info-block">
+                                <h3><i class="fas fa-clock"></i>  Opening Hours</h3>
+                                <ul class="hours">
+                                    <li><span>Monday - Friday:</span> 7:00 AM - 9:00 PM</li>
+                                    <li><span>Saturday:</span> 8:00 AM - 10:00 PM</li>
+                                    <li><span>Sunday:</span> 8:00 AM - 6:00 PM</li>
+                                    <li><span>Holidays:</span> 9:00 AM - 5:00 PM</li>
+                                </ul>
+                            </div>
+                            <div class="info-block">
+                                <h3><i class="fas fa-"></i>  Social Media</h3>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-instagram"></i>  Instagram</a> | <a href="#"><i class="fab fa-facebook"></i>  Facebook</a> | <a href="#"><i class="fab fa-x"></i>  X(formally Twitter)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <h2>Reserve a Table</h2>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="phone" placeholder="Phone Number" required>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="date" name="date" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="time" name="time" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" name="guests" placeholder="Number of Guests" min="1" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="requests" rows="4" placeholder="Special Requests (like dietary restrictions, preferences,  celebration, etc.)"></textarea>
+                            </div>
+                            <button type="submit" class="btn submit-btn">Send Reservation Request</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Google Maps Embed -->
+                <div class="map-container">
+                    <h2>Locate Us</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7930.897395791089!2d7.496319!3d6.445299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a2b0b2b2b2b%3A0x2b2b2b2b2b2b2b2b!2sNew%20Haven%2C%20Enugu!5e0!3m2!1sen!2sng!4v1610000000000!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
     </main>
+    
     <!-- Footer -->
     <footer>
         <div class="container">
