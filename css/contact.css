@@ -1,6 +1,6 @@
 
 .contact-hero { 
-    background-image: url('https://images.pexels.com/photos/4388820/pexels-photo-4388820.jpeg?auto=compress&cs=tinysrgb&w=1600'); 
+    background-image: url(../images/restaurant-image.jpg); 
 }
 /* ===== CONTACT PAGE ===== */
 .contact-section {
@@ -93,4 +93,15 @@
 
 .map-container iframe {
     border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .contact-grid {
+        min-width: 370px;
+        max-width: max-content;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        flex-direction: column;
+    }
 }
