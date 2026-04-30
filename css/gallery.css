@@ -1,7 +1,7 @@
 
 /* Specific hero background images */
 .gallery-hero { 
-    background-image: url('https://images.pexels.com/photos/2608512/pexels-photo-2608512.jpeg?auto=compress&cs=tinysrgb&w=1600'); 
+    background-image: url(../images/restaurant-image.jpg); 
 }
 
 .gallery-section {
@@ -47,3 +47,19 @@
 .gallery-item:hover .overlay {
     bottom: 0;
 }
+
+@media (max-width: 768px) {
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+}
+
