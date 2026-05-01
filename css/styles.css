@@ -1,3 +1,13 @@
+/* -- 
+ 
+CREATED BY ABUASHIA MICHAEL JINKS
+GROUP 2
+
+
+
+-- */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -98,13 +108,13 @@ header {
     text-decoration: none;
 }
 
-‎.logo h1 {
+.logo h1 {
     font-size: 1.8rem;
     margin-bottom: 0;
     line-height: 1;
 }
 
-‎.logo h1 span {
+.logo h1 span {
     color: #FF3F33;
 }
 
