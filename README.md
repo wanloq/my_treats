@@ -2,10 +2,12 @@
 
 ## created by: GROUP 2
 
-## BREAKDOWN OF ASSIGNMENTS
+## BREAKDOWN OF PAGE ASSIGNMENTS
 
-### MADUABUCHI PETER            -   index.html, index.css
-### EDEANI MARTHA NWAKAEGOMMA   -   menu.html menu.css
-### ODOH KENDRA CHIDINMA        -   about.html, about.css
-### MICHAEL JINKS ABUASHIA      -   gallery.html, gallery.css
-### MICHAEL JINKS ABUASHIA      -   contact.html, contact.css, styles.css
+##    NAME                              ASSIGNMENTS                                STATUS
+
+-  MADUABUCHI PETER            -   index.html, index.css                        NOT SUBMITTED
+-  EDEANI MARTHA NWAKAEGOMMA   -   menu.html menu.css                           SUBMITTED
+-  ODOH KENDRA CHIDINMA        -   about.html, about.css                        NOT SUBMITTED
+-  MICHAEL JINKS ABUASHIA      -   gallery.html, gallery.css                    SUBMITTED
+-  MICHAEL JINKS ABUASHIA      -   contact.html, contact.css, styles.css        SUBMITTED
