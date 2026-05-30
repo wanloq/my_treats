@@ -83,6 +83,7 @@ img {
 }
 
 .page-hero p {
+    padding: 0.5rem;
     color: #9FC87E;
     font-size: 1.2rem;
 }
@@ -245,4 +246,13 @@ footer {
     .container {
         padding: 0 15px;
     } 
+
+    .footer-content {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        margin-bottom: 2rem;
+
+    }
 }
